@@ -25,7 +25,7 @@ challenges help you improve your coding skills by building realistic projects.
 
 ### Links
 
-- [My Solution on Frontend Mentor]()
+- [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-html5css3-huddle-landing-page-pqWjJQmBEy)
 - [Check the Live Site](https://eonraider-results-summary-component.netlify.app/)
 
 ## My process
