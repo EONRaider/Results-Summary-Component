@@ -155,6 +155,7 @@ body {
 }
 
 .summary-category__score span {
+    margin-left: 8px;
     opacity: 0.5;
 }
 
