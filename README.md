@@ -44,3 +44,6 @@ challenges help you improve your coding skills by building realistic projects.
 - Cube CSS methodology
 
 ### What I learned
+
+- I'm getting more comfortable editing SVG images when trying to achieve responsiveness. Interacting with the exact
+  attributes using only CSS is not trivial.
