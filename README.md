@@ -4,7 +4,8 @@
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
 This is a solution to
-the [Results Summary Component](https://www.frontendmentor.io/challenges/results-summary-component). Frontend Mentor
+the [Results Summary Component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend
+Mentor
 challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -20,9 +21,11 @@ challenges help you improve your coding skills by building realistic projects.
 
 ### Screenshot
 
+![Results-Summary-Component](https://github.com/EONRaider/Results-Summary-Component/assets/15611424/941b5ab0-0afd-4a23-9a60-0304851c80fc)
+
 ### Links
 
-- [My Solution on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
+- [My Solution on Frontend Mentor]()
 - [Check the Live Site](https://eonraider-results-summary-component.netlify.app/)
 
 ## My process
