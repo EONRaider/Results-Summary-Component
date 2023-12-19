@@ -1,10 +1,11 @@
-# Frontend Mentor - Project Name solution
+# Frontend Mentor - Results Summary Component solution
 
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/EONRaider/Project-Name?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/eonraider/project-name)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/EONRaider/Results-Summary-Component?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/eonraider/results-summary-component)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
-This is a solution to the [](https://www.frontendmentor.io/challenges/project-name). Frontend Mentor challenges help you
-improve your coding skills by building realistic projects.
+This is a solution to
+the [Results Summary Component](https://www.frontendmentor.io/challenges/results-summary-component). Frontend Mentor
+challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -21,8 +22,8 @@ improve your coding skills by building realistic projects.
 
 ### Links
 
-- [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/project-name)
-- [Check the Live Site](https://project-name.netlify.app/)
+- [My Solution on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
+- [Check the Live Site](https://eonraider-results-summary-component.netlify.app/)
 
 ## My process
 

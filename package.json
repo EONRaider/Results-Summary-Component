@@ -1,5 +1,5 @@
 {
-  "name": "stats-preview-card-component",
+  "name": "results-summary-component",
   "version": "1.0.0",
   "description": "Stats Preview Card Component challenge from Frontend Mentor using HTML5/CSS3",
   "main": "app.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EONRaider/Stats-Preview-Card-Component.git"
+    "url": "git+https://github.com/EONRaider/Results-Summary-Component.git"
   },
   "author": "EONRaider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EONRaider/Stats-Preview-Card-Component/issues"
+    "url": "https://github.com/EONRaider/Results-Summary-Component/issues"
   },
-  "homepage": "https://github.com/EONRaider/Stats-Preview-Card-Component#readme",
+  "homepage": "https://github.com/EONRaider/Results-Summary-Component#readme",
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
