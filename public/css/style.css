@@ -62,12 +62,6 @@ body {
     align-items: center;
 }
 
-.flex-space-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .flex-space-column {
     display: flex;
     flex-direction: column;
@@ -199,6 +193,9 @@ body {
 
 @media only screen and (width > 767px) {
     .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         flex-shrink: 0;
         width: 736px;
         height: 512px;
@@ -280,5 +277,8 @@ body {
 }
 
 @media only screen and (width <= 767px) {
-
+    .card {
+        width: 375px;
+        height: 809px;
+    }
 }
