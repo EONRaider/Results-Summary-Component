@@ -53,6 +53,7 @@ body {
     --yellow-shade: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
     --green-shade: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
     --blue-shade: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+    --blue-gradient: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
     --card-border-radius: 32px;
 }
 
@@ -84,6 +85,10 @@ body {
 }
 
 /* BLOCK */
+.result {
+    text-align: center;
+}
+
 .result__title {
     color: var(--light-blue-3);
     font-weight: 700;
@@ -95,18 +100,18 @@ body {
 
 .result-score-block {
     position: absolute;
-    left: calc(50% - 40.5px);
-    bottom: calc(50% - 49.5px);
 }
 
 .result-score__value {
     color: var(--white);
     font-weight: 800;
+    line-height: 72px;
 }
 
 .result-score__total {
     color: var(--light-blue-3);
     font-weight: 700;
+    opacity: 0.5168;
 }
 
 .result__category {
@@ -126,6 +131,7 @@ body {
 
 .summary-categories {
     width: 288px;
+    height: 272px;
 }
 
 .summary-category {
@@ -174,7 +180,6 @@ body {
 
 .summary__button {
     background-color: var(--dark-navy-blue);
-    margin-top: 41px;
     flex-shrink: 0;
     border: none;
     width: 100%;
@@ -207,8 +212,7 @@ body {
         width: 50%;
         height: 100%;
         border-radius: var(--card-border-radius);
-        background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
-        text-align: center;
+        background: var(--blue-gradient);
     }
 
     .result__title {
@@ -221,6 +225,11 @@ body {
         margin-top: 35px;
     }
 
+    .result-score-block {
+        left: calc(50% - 40.5px);
+        bottom: calc(50% - 49.5px);
+    }
+
     .result-score__background {
         width: 200px;
         height: 200px;
@@ -228,12 +237,10 @@ body {
 
     .result-score__value {
         font-size: 72px;
-        line-height: 72px;
     }
 
     .result-score__total {
         font-size: 18px;
-        opacity: 0.5168;
         margin-top: 4px;
     }
 
@@ -251,7 +258,7 @@ body {
     .summary {
         width: 50%;
         height: 100%;
-        padding: 38px 40px 46px 40px;
+        padding: 38px 40px 46px;
     }
 
     .summary__title {
@@ -260,11 +267,6 @@ body {
 
     .summary-categories {
         margin-top: 28px;
-        height: 272px;
-    }
-
-    .summary-category-name-block {
-        width: 103px;
     }
 
     .summary-category__name {
@@ -274,11 +276,92 @@ body {
     .summary-category__score {
         font-size: 18px;
     }
+
+    .summary__button {
+        margin-top: 41px;
+    }
 }
 
 @media only screen and (width <= 767px) {
     .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         width: 375px;
         height: 809px;
+    }
+
+    .result {
+        width: 100%;
+        height: 356px;
+        flex-shrink: 0;
+        border-radius: 0 0 32px 32px;
+        background: var(--blue-gradient);
+        box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
+    }
+
+    .result__title {
+        margin-top: 24px;
+        font-size: 18px;
+    }
+
+    .result-score {
+        position: relative;
+        margin-top: 24px;
+    }
+
+    .result-score-block {
+        left: calc(50% - 31px);
+        bottom: calc(50% - 46.5px);
+    }
+
+    .result-score__background {
+        width: 140px;
+        height: 140px;
+    }
+
+    .result-score__value {
+        font-size: 56px;
+    }
+
+    .result-score__total {
+        font-size: 16px;
+    }
+
+    .result__category {
+        margin-top: 24px;
+        font-size: 24px;
+    }
+
+    .result__text {
+        width: 260px;
+        margin: 8px auto 0;
+        font-size: 16px;
+    }
+
+    .summary {
+        width: 100%;
+        padding: 24px 30px 30px;
+    }
+
+    .summary__title {
+        font-size: 18px;
+    }
+
+    .summary-categories {
+        margin-top: 24px;
+    }
+
+    .summary-category__name {
+        font-size: 16px;
+    }
+
+    .summary-category__score {
+        font-size: 16px;
+    }
+
+    .summary__button {
+        margin-top: 24px;
     }
 }
